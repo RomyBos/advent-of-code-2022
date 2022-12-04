@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "types": [
+        "node"
+      ],
+      "rootDir": ".",
+      "outDir": "./dist/out-tsc",
+      "typeRoots": [
+        "node_modules/@types",
+        "node_modules/@types/node"
+      ]
+    },
+      "include": ["**/*.ts", "**/*.json"],
+      "exclude": ["node_modules", "coverage"]
+  }
+  
